@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.page1{
+    width:100%;
+    height:100vh;
+    background-image: url("flower.jpg");
+    background-size: cover;
+    color: #fff;
+}
+.navbar {
+    height: 60px;
+    background-color:  rgba(50, 10, 10, 0.795);
+    color: white;
+    display: flex;
+    align-items:center;
+    justify-content:right;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color:bisque;
+}
+
+.portfoilo{
+    justify-content: left;
+    margin-right: 500px;
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+header h1{
+    margin-right: 250px;
+}
+
+.home{ 
+    margin:30px;
+}
+
+.about{
+    margin:30px;
+}
+
+.skills{
+    margin:30px;
+}
+
+.my_work{
+    margin:30px;
+}
+
+.contact{
+    margin:30px;
+}
+
+.main{
+    position: absolute;
+    bottom: 250px;
+    left: 50px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:darkred;
+}
+
+.name span{
+    font-size: 65px;
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(87, 5, 5);
+    bottom: 100px;
+}
+
+.work{
+    margin-bottom: 20px;
+}
+
+.line1{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.line2{
+    font-size: 30px;
+    color: white;
+}
+
+.main2{
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 50px;
+}
+
+.main2 button {
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.main2 button a{
+    color: black;
+}
+
+
+
+
+.about2 h1{
+    color: rgb(141, 96, 30);
+    font-family: fantasy;
+    font-size: 80px;
+    margin-left: 100px;
+    padding-top: 30px;
+   
+}
+.aboutme{
+    width:100%;
+    height:100vh;
+    background-image: url("paper4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+.about_main{
+    display: flex;
+    margin: 30px 10px 30px;
+
+}
+
+.image{
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+    margin-right:100px;
+    border-radius:50%;
+    margin-top: 40px;
+}
+
+.about_content{
+    color: black;
+    font-size: 23px;
+    margin-top: 150px;
+    margin-left:50px;
+    margin-right:100px;
+}
+
+
+
+.skills2 h1{
+    color: rgb(147, 92, 11);
+    font-family: fantasy;
+    font-size: 80px;
+    margin-left: 100px;
+    padding-top: 30px;
+}
+.page3{
+    width:100%;
+    height:100vh;
+    background-image: url("paper.jpg");
+    background-size: cover;
+    color: #fff;
+}
+
+.java{
+    color:rgb(13, 13, 135);
+    font-size: 130px;
+}
+
+
+#j{
+    color: black;
+    font-size: 30px;
+}
+.python{
+    color:rgb(230, 213, 31);
+    font-size: 130px;
+}
+
+#p{
+    color: black;
+    font-size: 30px;
+} 
+
+
+.c{
+    
+    height: 130px;
+    width: 130px;
+    padding-left: 30px;
+}
+
+
+#c{
+    color: black;
+    font-size: 30px;
+} 
+
+.html{
+    font-size: 130px;
+    color: rgb(233, 79, 23);
+    justify-content: left;
+}
+
+
+
+#h{
+    color: black;
+    font-size: 30px;
+} 
+.css{
+    font-size: 130px;
+    color:rgba(24, 24, 245, 0.99);
+}
+
+
+#cs{
+    color: black;
+    font-size: 30px;
+} 
+
+.sql1{
+    height: 130px;
+    width: 130px;
+    color: rgb(23, 178, 240);
+}
+.s{
+    font-size: 130 px;
+}
+
+#s{
+    color: black;
+    font-size: 30px;
+} 
+
+.upper{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.lower{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.page4{
+    width:100%;
+    height:100vh;
+    background-image: url("papaer3.jpg");
+    background-size: cover;
+    color: #fff;
+}
+
+.work2 h1{
+    color: rgb(110, 69, 6);
+    font-family: fantasy;
+    font-size: 80px;
+    margin-left: 100px;
+    padding-top: 30px;
+}
+
+.work_content{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 150px;
+}
+
+.clone{
+    font-size:40px;
+    color:rgb(110, 69, 6)
+}
+
+.pa{
+    font-size: 20px;
+    color:rgb(7, 4, 0)
+}
+
+.amazon{
+    padding:12px;
+    border:2px solid black;
+    height:270px;
+    width:400px;
+
+}
+
+.netflix{
+    padding:10px;
+    border:2px solid black;
+    height:270px;
+    width:400px;
+}
+
+.calculator{
+    padding:10px;
+    border:2px solid black;
+    height:270px;
+    width:400px;
+    
+
+}
+
+.page5{
+    width:100%;
+    height:100vh;
+    background-image: url("paper2.jpg");
+    background-size: cover;
+    color: #fff;
+}
+
+.last h1{
+    color: rgb(110, 69, 6);
+    font-family: fantasy;
+    font-size: 80px;
+    margin-left: 800px;
+    padding-top: 30px;
+}
+
+.last_page{
+    display: flex;
+}
+
+.anime{
+    height: 420px;
+    width: 420px;
+    background-size: cover;
+    margin-left:100px;
+    margin-top: 40px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px 0;
+}
+input,label,textarea{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    color: black;
+
+}
+input,textarea{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #828282;
+}
+input[type=submit]{
+    background-color: #545557;
+    padding: 15px 0;
+    color: white;
+    font-size: 22px;
+    border-bottom: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background: rgb(86, 64, 34);
+}
+input, textarea{
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+
+}
+input:focus,
+textarea:focus{
+    outline: 1px solid #828282;
+}
+
+
